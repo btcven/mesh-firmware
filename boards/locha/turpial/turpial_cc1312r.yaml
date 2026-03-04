@@ -1,0 +1,17 @@
+# Copyright (c) 2026 Jean-Pierre De Jesus DIAZ <me@jeandudey.tech>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+identifier: turpial-cc1312
+name: Turpial
+vendor: locha
+type: mcu
+arch: arm
+ram: 80
+flash: 352
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - gpio

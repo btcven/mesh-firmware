@@ -1,0 +1,23 @@
+identifier: turpial/esp32/procpu
+name: Turpial ESP32 PROCPU
+type: mcu
+arch: xtensa
+toolchain:
+  - zephyr
+supported:
+  - adc
+  - dac
+  - gpio
+  - i2c
+  - watchdog
+  - uart
+  - nvs
+  - pwm
+  - sdhc
+  - spi
+  - counter
+  - entropy
+  - crypto
+  - retained_mem
+vendor: espressif
+

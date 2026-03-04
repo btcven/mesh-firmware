@@ -1,0 +1,11 @@
+# Copyright (c) 2026 Jean-Pierre De Jesus DIAZ <me@jeandudey.tech>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+board:
+  name: turpial
+  full_name: Turpial
+  vendor: locha
+  socs:
+    - name: cc1312r
+    - name: esp32

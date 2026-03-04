@@ -1,0 +1,23 @@
+# Copyright (c) 2026 Jean-Pierre De Jesus DIAZ <me@jeandudey.tech>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+manifest:
+  remotes:
+    # Switch to zephyrproject-rtos once CC1312R support is in, this should be
+    # removed, ideally one should use Zephyr upstream always.
+    - name: jeandudey
+      url-base: https://github.com/jeandudey
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: jeandudey
+      revision: 74ff43e52042af5e3eace81d37b1b5a1be315ea1 # Branch cc1312
+      import:
+        name-allowlist:
+          - cmsis_6
+          - hal_espressif
+          - hal_ti
+          - mcuboot
