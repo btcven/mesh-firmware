@@ -3,6 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
+
 /dts-v1/;
 
 #include <espressif/esp32/esp32_wrover_e_n4r8.dtsi>
