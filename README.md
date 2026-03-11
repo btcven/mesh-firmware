@@ -57,6 +57,10 @@ minicom -D /dev/tty.usbmodemXXXX -b 115200
 
 To exit minicom: `Esc`, then `X`, then confirm.
 
+## Roadmap
+
+See [docs/roadmap.md](docs/roadmap.md) for the development roadmap.
+
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
